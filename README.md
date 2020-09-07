@@ -2,6 +2,7 @@
 > 임베디드시스템 설계
 > 조원: 박지훈, 박용준, 김용준
 
+![](Face recognition.png)
 ![](header.png)
 
 ## 스마트 미러(smart mirror)
