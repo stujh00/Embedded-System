@@ -6,6 +6,6 @@
 ![](header.png)
 
 ## 주제 
- smart mirror를 이용한 얼굴인식
+   smart mirror를 이용한 얼굴인식
  
  
