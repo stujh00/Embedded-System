@@ -13,7 +13,7 @@
       주제: smart mirror 
       smart mirror 통해 날시예보, 달력, 각종 정보 등을 인터페이스에 출력하고 제어하며 얼굴 인식, 음성 인식 기능을 추가한다
 
-- 임베디드시스템 설계 프로젝트에서 라즈베리파이를 이용한 smart mirror 제작하여 얼굴 인식(Deep-learning), 음성 인식 기술을 이용하여 날씨(Weather Forcast API), 달력(Google calendar), 지도(Google Map API) 등 정보를 제공을 목표로 함.
+- 임베디드시스템 설계 프로젝트에서 라즈베리파이를 이용한 smart mirror 제작하여 얼굴 인식(Deep-learning), 음성 인식 기술을 이용하여 날씨(Weather Forcast API), 달력(Google calendar), 일정(Schedule), 지도(Google Map API) 등 정보를 제공을 목표로 함.
 
 ## smart mirror 작동 원리
 
@@ -36,8 +36,11 @@
 ## 5. 모니터 혹은 테블릿pc
 - 라즈베리파이로 부터 출력된 스크린을 표시하기 위해 필요
             
+## 6. LED Strip
+- 액자 옆면에 LED Strip을 붙여 밝기 조절
 
-
+## 7. RPI 카메라
+- 얼굴인식을 위하여 카메라 장착
 
 
 >참고 사이트
