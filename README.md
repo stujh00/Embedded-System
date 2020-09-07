@@ -1,5 +1,6 @@
 # embeddedsystem-project
 > 임베디드시스템 설계
+> 조원: 박지훈, 박용준, 김용준
 
 ![](header.png)
 
@@ -35,3 +36,10 @@
 ## 5. 모니터 혹은 테블릿pc
 - 라즈베리파이로 부터 출력된 스크린을 표시하기 위해 필요
             
+
+
+
+
+>참고 사이트
+https://jeongchul.tistory.com/
+https://blog.naver.com/fuls
