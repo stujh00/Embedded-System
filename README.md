@@ -55,6 +55,6 @@
 
 # 2주차
 하드웨어설계 
-![](Mirror.png)
-![](RPI_TouchScreen.png)
+![](Mirror.PNG)
+![](RPI_TouchScreen.PNG)
 
