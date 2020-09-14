@@ -54,7 +54,7 @@
 - https://blog.naver.com/fuls
 
 # 2주차
-하드웨어설계 
+- 하드웨어설계 
 ![](Mirror.PNG)
 ![](RPI_TouchScreen.PNG)
 
