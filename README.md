@@ -55,10 +55,23 @@
 
 # 2주차
 - 하드웨어설계 
+- 스마트 미러 하드웨어 구성품 논의 및 계획 수립
 
-![](RPI_TouchScreen.PNG)
->라즈베리파이 터치스크린 https://www.devicemart.co.kr/goods/view?no=1273487
+![](RPI_TouchScreen.PNG) 
+>라즈베리파이 터치스크린 78,000원 https://www.devicemart.co.kr/goods/view?no=1273487
 
 ![](Mirror.PNG)
->이중거울 http://www.atostore.com/product/detail.html?product_no=63&cate_no=27&display_group=1
+>이중거울 50,000원 http://www.atostore.com/product/detail.html?product_no=63&cate_no=27&display_group=1
+
+![](black.png)
+>검정시트지 5,500원 http://jdsoo.co.kr/shop/shopdetail.html?branduid=76469&NaPm=ct%3Djhnlb567%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3D%7Chk%3Dc56ccc5b0d4dd558be9bb22ce7d92fcd94ae7493
+
+![](1.png)
+>썬팅공구종합세트 9,000원
+
+- 추가 구매 예상 물품
+
+1. 각종공구
+2. 제작틀
+
 
