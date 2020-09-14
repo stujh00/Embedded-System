@@ -55,6 +55,10 @@
 
 # 2주차
 - 하드웨어설계 
-![](Mirror.PNG)
+
 ![](RPI_TouchScreen.PNG)
+>라즈베리파이 터치스크린 https://www.devicemart.co.kr/goods/view?no=1273487
+
+![](Mirror.PNG)
+>이중거울 http://www.atostore.com/product/detail.html?product_no=63&cate_no=27&display_group=1
 
