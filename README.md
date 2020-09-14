@@ -1,6 +1,6 @@
 # embeddedsystem-project
 > 임베디드시스템 설계
-> 조원: 박지훈, 박용준, 김용준
+> 조원: 박지훈, 박용준, 김용준, 아버스, 류가홍
 # 1주차
 ![](header.png)
 ![](Face.jpg)
