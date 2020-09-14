@@ -1,7 +1,7 @@
 # embeddedsystem-project
 > 임베디드시스템 설계
 > 조원: 박지훈, 박용준, 김용준
-1주차
+# 1주차
 ![](header.png)
 ![](Face.jpg)
 
@@ -53,7 +53,7 @@
 - https://jeongchul.tistory.com/
 - https://blog.naver.com/fuls
 
-2주차
+# 2주차
 하드웨어설계 
 ![](Mirror.png)
 ![](RPI_TouchScreen.png)
