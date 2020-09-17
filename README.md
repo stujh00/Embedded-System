@@ -1,3 +1,8 @@
+<https://img.shields.io/badge/license-mit-green.svg"> 
+https://img.shields.io/badge/--.svg 
+
+APM: /apm/l/:packageName.svg 
+AUR license: /aur/license/:packageName.svg
 # embeddedsystem-project
 > 임베디드시스템 설계
 > 조원: 박지훈, 박용준, 김용준, 아버스, 류가홍
