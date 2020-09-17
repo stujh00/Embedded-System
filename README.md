@@ -48,12 +48,13 @@
 7. RPI 카메라  
 얼굴인식을 위하여 카메라 장착
 
-***
-
 
 >참고 사이트
 - https://jeongchul.tistory.com/
 - https://blog.naver.com/fuls
+
+***
+***
 
 # 2주차
 - 스마트 미러 하드웨어 구성품 논의 및 계획 수립 
@@ -62,18 +63,18 @@
 ## 구매 예정 리스트
 ### 1. 라즈베리파이 터치스크린 78,000원   
 ![title](/images/touchscreen.png)     
-https://www.devicemart.co.kr/goods/view?no=1273487  
+구매사이트: https://www.devicemart.co.kr/goods/view?no=1273487  
 
 ### 2. 이중거울 50,000원  
 ![title](/images/mirror.png)  
-http://www.atostore.com/product/detail.html?product_no=63&cate_no=27&display_group=1  
+구매사이트: http://www.atostore.com/product/detail.html?product_no=63&cate_no=27&display_group=1  
 
-### 3. 이중거울 or 하프미러필름    
+### 3. 이중거울 or 하프미러필름     
+투과율 & 반사율 측면에서 이중거울이 효율적이기에 이중거울을 사용할 예정
+
+### 4. 검정시트지 5,500원      
 ![title](/images/black.png)   
-투과율 & 반사율 측면에서 이중거울이 효율적이기에 이중거울을 사용할 
-
-### 4. 검정시트지 5,500원                               
-http://jdsoo.co.kr/shop/shopdetail.html?branduid=76469&NaPm=ct%3Djhnlb567%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3D%7Chk%3Dc56ccc5b0d4dd558be9bb22ce7d92fcd94ae7493   
+구매사이트: http://jdsoo.co.kr/shop/shopdetail.html?branduid=76469&NaPm=ct%3Djhnlb567%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3D%7Chk%3Dc56ccc5b0d4dd558be9bb22ce7d92fcd94ae7493   
 빛의 산란을 방지
 
 ### 5. 썬팅공구종합세트 9,000원  
@@ -82,8 +83,9 @@ http://jdsoo.co.kr/shop/shopdetail.html?branduid=76469&NaPm=ct%3Djhnlb567%7Cci%3
 
 ## 추가 구매 예상 리스트
 1. 각종공구
-2. 제작틀 
+2. 제작틀  
 (거울과 부품 수령 후 제작을 진행하며 상의하에 직접 틀제작 계획)
 
+***
 ***
 
