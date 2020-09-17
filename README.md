@@ -1,7 +1,8 @@
 # embeddedsystem-project
 > 임베디드시스템 설계
 > 조원: 박지훈, 박용준, 김용준, 아버스, 류가홍
-# 1주차
+# 1주차 
+
 ![title](/images/header.png) 
 ![title](/images/face.jpg)
 
@@ -26,9 +27,8 @@
 ![title](/images/operate.png)
 
 ## 준비물
-
-## 1. 유리
-- 스크린을 표시하기 위해 필요
+1. 유리
+   *스크린을 표시하기 위해 필요
 
 ## 2. 반사필름
 - 반사된 유리에 필름을 부착하여 선명도와 가시성을 높이기 위해 필요
