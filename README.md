@@ -2,8 +2,9 @@
 > 임베디드시스템 설계
 > 조원: 박지훈, 박용준, 김용준, 아버스, 류가홍
 # 1주차
-![](header.png)
-![](Face.jpg)
+![title](/images/header.png) 
+![title](/images/face.jpg)
+
 
 ## 스마트 미러(smart mirror)
  - 일상 생활에서 사용하는 거울을 통해 인터페이스를 출력하거나, 여러가지 기능을 수행할 수 있는 IoT 디바이스
@@ -22,7 +23,7 @@
   라즈베리파이에 라즈비안(OS)과 OpenCV를 설치, 파이썬(python)으로 라즈베리 파이 카메라를 사용하여 얼굴인식기능을 추가합니다. 개인의 얼굴을 학습시켜 각 사람별로 구별하도록 합니다.
   
 
-![](operate.png)
+![title](/images/operate.png)
 
 ## 준비물
 
@@ -59,20 +60,20 @@
 - 스마트 미러의 핵심인 거울 제작에 초점을 둠
 
 ## 1. 구매 예정 리스트
-![](RPI_TouchScreen.PNG) 
+![title](/images/touchscreen.png) 
 >라즈베리파이 터치스크린 78,000원   
 https://www.devicemart.co.kr/goods/view?no=1273487
 
-![](Mirror.PNG)
+![title](/images/mirror.png)
 >이중거울 50,000원          
 http://www.atostore.com/product/detail.html?product_no=63&cate_no=27&display_group=1
 - 이중거울 or 하프미러필름 ->투과율 & 반사율 측면에서 이중거울이 효율적이기에 이중거울을 사용
-![](black.png)
+![title](/images/black.png)
 >검정시트지 5,500원                             
 http://jdsoo.co.kr/shop/shopdetail.html?branduid=76469&NaPm=ct%3Djhnlb567%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3D%7Chk%3Dc56ccc5b0d4dd558be9bb22ce7d92fcd94ae7493
 -빛의 산란을 방지
 
-![](1.png)
+![title](/images/tool.png)
 >썬팅공구종합세트 9,000원
 
 ## 2. 추가 구매 예상 리스트
