@@ -60,20 +60,26 @@
 - 스마트 미러의 핵심인 거울 제작에 초점을 둠
 
 ## 1. 구매 예정 리스트
-![title](/images/touchscreen.png) 
->라즈베리파이 터치스크린 78,000원   
-https://www.devicemart.co.kr/goods/view?no=1273487
+###1.  
+![title](/images/touchscreen.png)   
+>라즈베리파이 터치스크린 78,000원    
+https://www.devicemart.co.kr/goods/view?no=1273487  
 
-![title](/images/mirror.png)
->이중거울 50,000원          
-http://www.atostore.com/product/detail.html?product_no=63&cate_no=27&display_group=1
-- 이중거울 or 하프미러필름 ->투과율 & 반사율 측면에서 이중거울이 효율적이기에 이중거울을 사용
+###2.  
+![title](/images/mirror.png)  
+이중거울 50,000원          
+http://www.atostore.com/product/detail.html?product_no=63&cate_no=27&display_group=1  
+
+###3.- 이중거울 or 하프미러필름 ->투과율 & 반사율 측면에서 이중거울이 효율적이기에 이중거울을 사용  
 ![title](/images/black.png)
->검정시트지 5,500원                             
-http://jdsoo.co.kr/shop/shopdetail.html?branduid=76469&NaPm=ct%3Djhnlb567%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3D%7Chk%3Dc56ccc5b0d4dd558be9bb22ce7d92fcd94ae7493
--빛의 산란을 방지
 
-![title](/images/tool.png)
+###4.  
+검정시트지 5,500원                             
+http://jdsoo.co.kr/shop/shopdetail.html?branduid=76469&NaPm=ct%3Djhnlb567%7Cci%3Dcheckout%7Ctr%3Dppc%7Ctrx%3D%7Chk%3Dc56ccc5b0d4dd558be9bb22ce7d92fcd94ae7493   
+빛의 산란을 방지
+
+###5.  
+![title](/images/tool.png)  
 >썬팅공구종합세트 9,000원
 
 ## 2. 추가 구매 예상 리스트
