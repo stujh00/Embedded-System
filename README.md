@@ -60,7 +60,7 @@
 
 ## 1. 구매 예정 리스트
 ![](RPI_TouchScreen.PNG) 
->라즈베리파이 터치스크린 78,000원
+>라즈베리파이 터치스크린 78,000원   
 https://www.devicemart.co.kr/goods/view?no=1273487
 
 ![](Mirror.PNG)
