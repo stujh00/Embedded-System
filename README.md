@@ -97,4 +97,4 @@
 - [x] 3주차 강의를 통해 배운 기본 세팅
 
 ## 라즈베리파이 키트 부품 조사
-[라즈베리파이 키트 부품 조사](https://github.com/kanyevelvet/embedded-kit)  
+[작성 리스트](https://github.com/kanyevelvet/embedded-kit)  
