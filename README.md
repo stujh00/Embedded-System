@@ -116,37 +116,37 @@
 3) 압축 해제 후 SD Card Formatter 실행 
 4) sd카드를 삽입 
 5) Select card 에서 sd카드 드라이브를 선택후 Format버튼을 눌러 초기화 실행
-![title](/images/sdformat1.png) 
-![title](/images/sdformat2.png) 
+![title](/images/sdformat1.PNG) 
+![title](/images/sdformat2.PNG) 
 
 2. 라즈비안 파일 다운로드
 1) https://www.raspberrypi.org/downloads/raspberry-pi-os/ 접속
 2) Raspberry Pi OS (32-bit) with desktop and recommended software 다운로드
 3) 압축 해제 -> 이미지 파일 생성
-![title](/images/rasbian1.png) 
-![title](/images/rasbian2.png) 
+![title](/images/rasbian1.PNG) 
+![title](/images/rasbian2.PNG) 
 
 3. Win32DiskImager
 1) https://sourceforge.net/projects/win32diskimager/files/latest/download 접속
 2) 다운로드 후 실행
 3) 실행창에서 폴더 클릭 - 라즈비안 이미지 파일 생성 - Write 클릭
-![title](/images/win1.png) 
+![title](/images/win1.PNG) 
 
 4. 라즈베리파이에 라즈비안OS 설치
 1) sd카드의 boot(D:)에 들어가 ssh파일 만들기
-![title](/images/ssh1.png) 
-![title](/images/ssh2.png) 
+![title](/images/ssh1.PNG) 
+![title](/images/ssh2.PNG) 
 2) sd카드에 이미지 파일을 받은 후 라즈베리파이에 삽입
 3) 전원을 인가하여 컴퓨터와 라즈베리파이를 연결
 4) https://www.putty.org/ 접속하여 putty를 다운로드 (putty를 설치하여 ssh로 통신하기)
 5) 실행 후 host name에 공유기의 ip 입력 - open 버튼 클릭
-![title](/images/ssh3.png) 
+![title](/images/ssh3.PNG) 
 6) cmd 창의 login에 pi, password에 raspberry 입력, 연결 확인
-![title](/images/ssh4.png) 
-![title](/images/ssh5.png) 
+![title](/images/ssh4.PNG) 
+![title](/images/ssh5.PNG) 
 8) https://www.realvnc.com/en/connect/download/viewer/ 접속
 9) RealVnc 다운로드 (데스크톱에서 가상으로 화면을 띄우는 방법)
 10) 실행 후 입력했던 ip주소와 id, password 입력 - ok버튼 클릭 
 라즈베리파이 운영체제 화면 생성
-![title](/images/ssh6.png) 
+![title](/images/ssh6.PNG) 
 
