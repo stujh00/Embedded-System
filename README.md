@@ -110,8 +110,9 @@
 >총 주문 금액: 181,200원(배송비 포함)
 
 ## 라즈베리파이 라즈비안설치
+
 - micro sd카드 포맷
-1)https://www.sdcard.org/downloads/formatter/eula_windows/index.html 접속
+1) https://www.sdcard.org/downloads/formatter/eula_windows/index.html 접속
 2) SDCardFormatter.zip 다운로드 
 3) 압축 해제 후 SD Card Formatter 실행 
 4) sd카드를 삽입 
