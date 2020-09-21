@@ -145,9 +145,9 @@
 6) cmd 창의 login에 pi, password에 raspberry 입력, 연결 확인
 ![title](/images/ssh4.PNG) 
 ![title](/images/ssh5.PNG) 
-8) https://www.realvnc.com/en/connect/download/viewer/ 접속
-9) RealVnc 다운로드 (데스크톱에서 가상으로 화면을 띄우는 방법)
-10) 실행 후 입력했던 ip주소와 id, password 입력 - ok버튼 클릭 
-라즈베리파이 운영체제 화면 생성
+7) https://www.realvnc.com/en/connect/download/viewer/ 접속
+8) RealVnc 다운로드 (데스크톱에서 가상으로 화면을 띄우는 방법)
+9) 실행 후 입력했던 ip주소와 id, password 입력 - ok버튼 클릭 
+10) 라즈베리파이 운영체제 화면 생성
 ![title](/images/ssh6.PNG) 
 
