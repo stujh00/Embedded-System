@@ -110,7 +110,7 @@
 >총 주문 금액: 181,200원(배송비 포함)
 
 ## 라즈베리파이 라즈비안설치
-1. micro sd카드 포맷
+- micro sd카드 포맷
 1)https://www.sdcard.org/downloads/formatter/eula_windows/index.html 접속
 2) SDCardFormatter.zip 다운로드 
 3) 압축 해제 후 SD Card Formatter 실행 
@@ -119,20 +119,20 @@
 ![title](/images/sdformat1.PNG) 
 ![title](/images/sdformat2.PNG) 
 
-2. 라즈비안 파일 다운로드
+- 라즈비안 파일 다운로드
 1) https://www.raspberrypi.org/downloads/raspberry-pi-os/ 접속
 2) Raspberry Pi OS (32-bit) with desktop and recommended software 다운로드
 3) 압축 해제 -> 이미지 파일 생성
 ![title](/images/rasbian1.PNG) 
 ![title](/images/rasbian2.PNG) 
 
-3. Win32DiskImager
+- Win32DiskImager
 1) https://sourceforge.net/projects/win32diskimager/files/latest/download 접속
 2) 다운로드 후 실행
 3) 실행창에서 폴더 클릭 - 라즈비안 이미지 파일 생성 - Write 클릭
 ![title](/images/win1.PNG) 
 
-4. 라즈베리파이에 라즈비안OS 설치
+- 라즈베리파이에 라즈비안OS 설치
 1) sd카드의 boot(D:)에 들어가 ssh파일 만들기
 ![title](/images/ssh1.PNG) 
 ![title](/images/ssh2.PNG) 
