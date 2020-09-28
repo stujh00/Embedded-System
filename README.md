@@ -177,5 +177,16 @@
 7. 이미지 변환(image warping)
 8. 하드웨어 가속
 
-- 출처 : http://opencv.org/wp-content/themes/opencv/images/logo.png
+- 출처 : https://opencv.org/
 
+## OpenCV를 통한 스마트미러 기능 사용
+
+- OpenCV를 통해 얼굴인식 하는 과정
+1. OpenCV 필수 구성요소 설치
+2. OpenCV 용 Pyhton가상 환경 구성
+3. OpenCV 환경설정
+4. OpenCV 컴파일
+5. Pip로 필요 기본모듈 설치
+6. dataset에 본인의 사진 찍어 넣기
+
+- 출처 : https://blog.naver.com/dtvdtv2/221958738257
