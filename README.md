@@ -181,6 +181,7 @@
 
 ## OpenCV를 통한 스마트미러 기능 사용
 
+![title](/images/opencv2.jpg)
 - OpenCV를 통해 얼굴인식 하는 과정
 1. OpenCV 필수 구성요소 설치
 2. OpenCV 용 Pyhton가상 환경 구성
