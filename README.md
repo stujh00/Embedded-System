@@ -154,3 +154,27 @@
 10) 라즈베리파이 운영체제 화면 생성
 ![title](/images/ssh6.PNG) 
 
+
+## 4주차
+- OpenCV에 대해 조사
+
+## OpenCV란?
+![title](/images/opencv.PNG)
+- OpenCV (Open Source Computer Vision Library)는 오픈 소스 컴퓨터 비전 및 머신 러닝 소프트웨어 라이브러리입니다. OpenCV는 컴퓨터 비전 애플리케이션을위한 공통 인프라를 제공하고 상용 제품에서 기계 인식의 사용을 가속화하기 위해 구축되었습니다.
+
+- 라이브러리에는 2,500 개 이상의 최적화 된 알고리즘이 있으며, 여기에는 클래식 및 최첨단 컴퓨터 비전과 기계 학습 알고리즘의 포괄적 인 집합이 포함됩니다. 이러한 알고리즘은 얼굴을 감지 및 인식하고, 물체를 식별하고, 비디오에서 인간의 행동을 분류하고, 카메라 움직임을 추적하고, 움직이는 물체를 추적하고, 물체의 3D 모델을 추출하고, 스테레오 카메라에서 3D 포인트 클라우드를 생성하고, 이미지를 함께 연결하여 고해상도를 생성하는 데 사용할 수 있습니다. 전체 장면의 이미지, 이미지 데이터베이스에서 유사한 이미지 찾기, 플래시를 사용하여 촬영 한 이미지에서 적목 현상 제거, 눈의 움직임 추적, 풍경 인식 및 증강 현실 오버레이를위한 마커 설정 등이 있습니다.
+
+- C ++, Python, Java 및 MATLAB 인터페이스가 있으며 Windows, Linux,  Android  및 Mac OS를 지원합니다. openCV는 주로 실시간 비전 애플리케이션에 기울이며 사용 가능한 경우 MMX 및 SSE 명령을 활용합니다. 모든 기능을 갖춘  CUDA 및  OpenCL  인터페이스가 현재 활발하게 개발되고 있습니다.
+
+## 주요 알고리즘
+1. 이진화(binarization)
+2. 노이즈 제거
+3. 외곽선 검출(edge detection)
+4. 패턴인식
+5. 기계학습(machine learning)
+6. ROI(Region Of Interest) 설정
+7. 이미지 변환(image warping)
+8. 하드웨어 가속
+
+- 출처 : http://opencv.org/wp-content/themes/opencv/images/logo.png
+
