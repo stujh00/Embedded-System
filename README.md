@@ -199,7 +199,7 @@
 
 ## 라즈베리파이 설치 · 세팅
 
-![title](/images/Raset1.png.PNG)![title](/images/Raset2.png.PNG)![title](/images/Raset3.png.PNG)
+![title](/images/Raset1.PNG)![title](/images/Raset2.PNG)![title](/images/Raset3.PNG)
 1. 준비물 : 마이크로 SD카드, 마이크로 SD카드 리더기, USB 소형 마이크, AUX 3.5mm 오디오 단자, 라즈베리파이
 (상황에 따라 변경 가능) : 키보드, 마우스, 마이크로 USB 어댑터(2A 이상), 모니터 및 전원 어뎁터, HDMI 케이블
 
@@ -208,17 +208,19 @@
 ![title](/images/Raset4.PNG)
 3. rufus.akeo.ie에 들어가서 Rufus를 다운
 
+![title](/images/Raset5.PNG)
 4. www.raspberrypi.org에 들어가서 RASPBIAN STRETCH WITH DESKTOP 다운
 
 5. 4번에서 다운 받은 파일을 압축 풀기
 
-![title](/images/Raset5.PNG)
+![title](/images/Raset6.PNG)
 6. 3번에서 다운 파일을 열어 '선택'에서 4번 파일을 클릭 후 '시작'
 
-![title](/images/Raset6.PNG)
+![title](/images/Raset7.PNG)
 7. 완료되면 SD카드를 빼서 라즈베리파이에 삽입
 
-![title](/images/Raset7.PNG)
+![title](/images/Raset8.PNG)
 8. 그리고 각 기기들을 라즈베리파이에 맞게 삽입
 
+![title](/images/Raset9.PNG)
 9. 모니터를 켜서 라즈베리파이를 실행하면 설치 끝!
