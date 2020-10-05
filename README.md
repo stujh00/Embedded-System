@@ -206,21 +206,27 @@
 2. 카드 리더기에 SD카드를 넣고 본체에 연결
 
 ![title](/images/Raset4.PNG)
+
 3. rufus.akeo.ie에 들어가서 Rufus를 다운
 
 ![title](/images/Raset5.PNG)
+
 4. www.raspberrypi.org에 들어가서 RASPBIAN STRETCH WITH DESKTOP 다운
 
 5. 4번에서 다운 받은 파일을 압축 풀기
 
 ![title](/images/Raset6.PNG)
+
 6. 3번에서 다운 파일을 열어 '선택'에서 4번 파일을 클릭 후 '시작'
 
 ![title](/images/Raset7.PNG)
+
 7. 완료되면 SD카드를 빼서 라즈베리파이에 삽입
 
 ![title](/images/Raset8.PNG)
+
 8. 그리고 각 기기들을 라즈베리파이에 맞게 삽입
 
 ![title](/images/Raset9.PNG)
+
 9. 모니터를 켜서 라즈베리파이를 실행하면 설치 끝!
