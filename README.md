@@ -191,3 +191,13 @@
 6. dataset에 본인의 사진 찍어 넣기
 
 - 출처 : https://blog.naver.com/dtvdtv2/221958738257
+
+***
+
+## 5주차
+- 라즈베리파이에 매직미러 설치 단계
+
+## 라즈베리파이 설치 · 세팅
+
+![title](/images/Raset1.png)![title](/images/Raset2.png)
+1. 준비물 : 마이크로 SD카드, 마이크로 SD카드 리더기, USB 소형 마이크, AUX 3.5mm 오디오 단자, 라즈베리파이, 키보드, 마우스, 마이크로 USB 어댑터(2A 이상)
