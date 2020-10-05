@@ -199,5 +199,5 @@
 
 ## 라즈베리파이 설치 · 세팅
 
-![title](/images/Raset1.png)![title](/images/Raset2.png)
+![title](/images/Raset1.png.PNG)![title](/images/Raset2.png.PNG)![title](/images/Raset3.png.PNG)
 1. 준비물 : 마이크로 SD카드, 마이크로 SD카드 리더기, USB 소형 마이크, AUX 3.5mm 오디오 단자, 라즈베리파이, 키보드, 마우스, 마이크로 USB 어댑터(2A 이상)
