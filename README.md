@@ -237,108 +237,108 @@
 1. 관련 라이브러리 설치하기
 OpenCV를 설치하기에 앞서 관련 라이브러리들을 설치
 먼저 업데이트를 한다.
-$ sudo apt-get update
-$ sudo apt-get upgrade
+- $ sudo apt-get update
+- $ sudo apt-get upgrade
 
 2. 업데이트 후에 개발 툴을 설치한다
 OpenCV 설치는 소스코드를 다운로드 받아서 라즈베리파이 안에서 빌드를 해야하기 때문에 개발 툴이 필요
-$ sudo apt-get install build-essential
-$ sudo apt-get install cmake
-$ sudo apt-get install pkg-config
+- $ sudo apt-get install build-essential
+- $ sudo apt-get install cmake
+- $ sudo apt-get install pkg-config
 
 3. 다양한 이미지 파일을 열 수 있도록 관련 라이브러리들을 설치
-$ sudo apt-get install libjpeg-dev
-$ sudo apt-get install libtiff5-dev
-$ sudo apt-get install libjasper-dev
-$ sudo apt-get install libpng12-dev 
+- $ sudo apt-get install libjpeg-dev
+- $ sudo apt-get install libtiff5-dev
+- $ sudo apt-get install libjasper-dev
+- $ sudo apt-get install libpng12-dev 
 
 4. 다양한 비디오 파일에 대한 라이브러리를 설치
-$ sudo apt-get install libavcodec-dev
-$ sudo apt-get install libavformat-dev
-$ sudo apt-get install libswscale-dev
-$ sudo apt-get install libv4l-dev
-$ sudo apt-get install libxvidcore-dev
-$ sudo apt-get install libx264-dev
+- $ sudo apt-get install libavcodec-dev
+- $ sudo apt-get install libavformat-dev
+- $ sudo apt-get install libswscale-dev
+- $ sudo apt-get install libv4l-dev
+- $ sudo apt-get install libxvidcore-dev
+- $ sudo apt-get install libx264-dev
 
 5. OpenCV에는 highgui라는 서브 모듈이 있는데 이미지를 스크린에 출력하거나 간단한 GUI를 만드는데 사용. 이에 필요한 라이브러리를 설치
-$ sudo apt-get install libgtk2.0-dev
-$ sudo apt-get install libgtk-3-dev
+- $ sudo apt-get install libgtk2.0-dev
+- $ sudo apt-get install libgtk-3-dev
 
 6. OpenCV 내의 행렬 연산을 최적화시키는데 필요한 라이브러리 설치
-$ sudo apt-get install libatlas-base-dev
-$ sudo apt-get install gfortran
+- $ sudo apt-get install libatlas-base-dev
+- $ sudo apt-get install gfortran
 
 7. 마지막으로 OpenCV를 파이썬으로 사용할 수 있도록 파이썬 헤더를 설치
-$ sudo apt-get install python2.7-dev
-$ sudo apt-get install python3-dev
+- $ sudo apt-get install python2.7-dev
+- $ sudo apt-get install python3-dev
 
-8.OpenCV설치
+8. OpenCV설치
 OpenCV 공식 GitHub 저장소에서 3.3.0버전을 설치
 wget 명령을 이용해 소스파일을 다운 
-$ cd ~
-$ wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.3.0.zip
-$ unzip opencv.zip
+- $ cd ~
+- $ wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.3.0.zip
+- $ unzip opencv.zip
 
 9. 추가 라이브러리인 contrib도 다운
-$ wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.3.0.zip
-$ unzip opencv_contrib.zip
+- $ wget -O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.3.0.zip
+- $ unzip opencv_contrib.zip
  
 10. PIP를 업데이트
-$ wget https://bootstrap.pypa.io/get-pip.py
-$ sudo python get-pip.py
-$ sudo python3 get-pip.py
+- $ wget https://bootstrap.pypa.io/get-pip.py
+- $ sudo python get-pip.py
+- $ sudo python3 get-pip.py
 
 11. 가상환경 툴을 설치. 가상환경이란, 기본 설정과 독립된 환경을 만들어서 전체 환경에 영향을 미치지 않고, 가상환경에서만 작업함으로써, 
 의도치 않게 전체 환경에 영향을 미치는 것을 피하기 위함
--$ sudo pip install virtualenv virtualenvwrapper
--$ sudo rm -rf ~/.cache/pip
+- $ sudo pip install virtualenv virtualenvwrapper
+- $ sudo rm -rf ~/.cache/pip
 
 12. 가상환경을 사용하기 위해 ./~profile 파일을 수정해야 함. nano로 수정할 수도 있지만, 아래 명령을 사용하면 텍스트 에디터에 들어갈 필요 
 없이 터미널에서 ./~profile의 끝에 원하는 내용을 추가할 수 있음
-$ echo -e "\n# virtualenv and virtualenvwrapper" >> ~/.profile
-$ echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.profile
-$ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.profile
+- $ echo -e "\n# virtualenv and virtualenvwrapper" >> ~/.profile
+- $ echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.profile
+- $ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.profile
 
 13. 위에 입력한 내용을 적용하기 위해 ~/.profile 파일을 실행
-$ source ~/.profile
+- $ source ~/.profile
 
 14. 가상환경을 만들어준다.
-$ mkvirtualenv cv -p python2
+- $ mkvirtualenv cv -p python2
 
 15. 가상환경으로 들어간다.
-$ source ~/.profile
-$ workon cv
+- $ source ~/.profile
+- $ workon cv
 
 16. 가상환경이 제대로 만들어졌다면 터미널이 아래와 같이 바뀐다.
-(cv) pi$raspberrypi:~ $
+- (cv) pi$raspberrypi:~ $
 
 17. 가상환경이 만들어졌으니 마지막으로 가상환경 안에 numpy를 설치
-(cv) $ pip install numpy
+- (cv) $ pip install numpy
 
 18. 빌드를 시작(오랜 시간 소요)
-(cv) $ cd ~/opencv-3.3.0/
-(cv) $ mkdir build
-(cv) $ cd build
-(cv) $ cmake -D CMAKE_BUILD_TYPE=RELEASE \
+- (cv) $ cd ~/opencv-3.3.0/
+- (cv) $ mkdir build
+- (cv) $ cd build
+- (cv) $ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
 -D INSTALL_PYTHON_EXAMPLES=ON \
 -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.3.0/modules \
 -D BUILD_EXAMPLES=ON ..
 (cv) $ make
 
-(make 과정에서 오류가 발생하여 재설치를 여러번 시도했으나 계속 오류 발생하여 하드웨어 부분과 
+- (make 과정에서 오류가 발생하여 재설치를 여러번 시도했으나 계속 오류 발생하여 하드웨어 부분과 
 스마트미러 기능을 구현후에 OpenCV를 구현하기로 결정)
 
 19.  빌드가 완료되었으면, 이제 인스톨을 실행
-$ sudo make install
-$ sudo ldconfig
+- $ sudo make install
+- $ sudo ldconfig
 
 20. 인스톨까지 끝났으면 아래 명령으로 OpenCV bindings를 cv 가상환경과 sym-link함
-$ cd ~/.virtualenvs/cv/lib/python2.7/site-packages/
-$ ln -s /usr/local/lib/python2.7/site-packages/cv2.so cv2.so
+- $ cd ~/.virtualenvs/cv/lib/python2.7/site-packages/
+- $ ln -s /usr/local/lib/python2.7/site-packages/cv2.so cv2.so
 
 21. 설치가 완료되었으면 파이썬으로 들어가서 아래와 같이 cv2를 가져와서 설치가 올바르게 되었는지 확인
-$ python
+- $ python
 >>> import cv2
 >>> cv2.__version__
 '3.3.0'
