@@ -382,7 +382,7 @@ manual installation
 
 ![title](/images/install2.PNG)
 
-3. 기본 modules modder 
+3. default modules modded and add covid 19 module
 - text editor를 이용한 config 수정
 
 ![title](/images/modules.PNG)
