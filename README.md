@@ -345,3 +345,47 @@ wget 명령을 이용해 소스파일을 다운
 >>>
 22. 위와 같이 import cv2를 했을 때 아무 에러가 안나고 cv2.__version__ 
 입력했을 때 '3.3.0'이 뜬다면 설치가 된것이다.
+
+
+***
+
+## 9 
+- magic mirror installation 
+
+1. adduser and port-forwarding(SSH and PuTTY)
+
+```
+sudo adduser
+```
+![title](/images/adduser.png)
+
+![title](/images/port.png)
+
+2. Remote control using VNC Viewer and magicmirror install
+
+manual installation
+
+```
+- curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+- sudo apt install -y nodejs
+```
+
+![title](/images/install1.png)
+
+```
+- git clone https://github.com/MichMich/MagicMirror
+- cd MagicMirror/
+- npm install
+- cp config/config.js.sample config/config.js
+- npm run start
+```
+
+![title](/images/install2.png)
+
+3. 기본 modules modder 
+- text editor를 이용한 config 수정
+
+![title](/images/modules.png)
+
+
+
