@@ -357,7 +357,7 @@ wget 명령을 이용해 소스파일을 다운
 ```
 sudo adduser
 ```
-![title](/images/adduser.png)
+![title](/images/adduser.PNG)
 
 ![title](/images/port.png)
 
@@ -370,7 +370,7 @@ manual installation
 - sudo apt install -y nodejs
 ```
 
-![title](/images/install1.png)
+![title](/images/install1.PNG)
 
 ```
 - git clone https://github.com/MichMich/MagicMirror
@@ -380,12 +380,12 @@ manual installation
 - npm run start
 ```
 
-![title](/images/install2.png)
+![title](/images/install2.PNG)
 
 3. 기본 modules modder 
 - text editor를 이용한 config 수정
 
-![title](/images/modules.png)
+![title](/images/modules.PNG)
 
 
 
