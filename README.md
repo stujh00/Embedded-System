@@ -401,27 +401,27 @@ public ip address + 외부포트 넘버를 입력하여 팀원들이 VNC Viewer�
 
 2. opencv, picamera
 
-1) opencv를 설치한 후 라즈베리파이에 picamera를 연결하여 이미지 촬영을 진행하는 코드
+- opencv를 설치한 후 라즈베리파이에 picamera를 연결하여 이미지 촬영을 진행하는 코드
 
-- ![title](/images/picamera1.jpg)
-
-
-
-2) 라즈베리파이의 폴더에 저장된 image와 video
-
-- ![title](/images/picamera2.jpg)
+![title](/images/picamera1.jpg)
 
 
 
-3) picamera로 촬영한 image
+- 라즈베리파이의 폴더에 저장된 image와 video
 
-- ![title](/images/picamera3.jpg)
+![title](/images/picamera2.jpg)
 
 
 
-4) picamera로 촬영한 video
+- picamera로 촬영한 image
 
-- https://www.youtube.com/watch?v=GlOS94aEc8o&feature=youtu.be
+![title](/images/picamera3.jpg)
+
+
+
+- picamera로 촬영한 video
+
+https://www.youtube.com/watch?v=GlOS94aEc8o&feature=youtu.be
 
 
 
