@@ -390,7 +390,7 @@ manual installation
 ***
 
 ## 10 
-- port-forwarding, opencv, picamera 
+port-forwarding, opencv, picamera 
 
 1. port-forwarding(VNC Viewer)
 
@@ -422,7 +422,9 @@ public ip address + 외부포트 넘버를 입력하여 팀원들이 VNC Viewer�
 - picamera로 촬영한 video
 
 https://www.youtube.com/watch?v=GlOS94aEc8o&feature=youtu.be
-
+```
+sudo adduser
+```
 
 
 
