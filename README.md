@@ -394,11 +394,12 @@ port-forwarding, opencv, picamera
 
 1. port-forwarding(VNC Viewer)
 
+- public ip address + 외부포트 넘버를 입력하여 팀원들이 VNC Viewer로 외부에서 내부로 접속한 화면 
+
 ![title](/images/portforwarding.jpg)
+```
 
-public ip address + 외부포트 넘버를 입력하여 팀원들이 VNC Viewer로 외부에서 내부로 접속한 화면 
-
-
+```
 2. opencv, picamera
 
 - opencv를 설치한 후 라즈베리파이에 picamera를 연결하여 이미지 촬영을 진행하는 코드
