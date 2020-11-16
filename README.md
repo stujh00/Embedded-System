@@ -349,7 +349,12 @@ wget 명령을 이용해 소스파일을 다운
 
 ***
 
-## 9 
+## 9
+9주차 설치 내용
+- [x] 매직미러 설치
+- [x] 파이에 팀원 계정 추가
+- [x] 매직미러 기본 모듈 설치 및 한글화 
+
 - magic mirror installation 
 
 1. adduser and port-forwarding(SSH and PuTTY)
@@ -390,7 +395,11 @@ manual installation
 ***
 
 ## 10 
-port-forwarding, opencv, picamera 
+10주차 설치 내용
+- [x] 팀원간 포트 포워딩 체크
+- [x] open cv 설치
+- [x] picamera 설치 및 테스트
+
 
 1. port-forwarding(VNC Viewer)
 
@@ -425,6 +434,102 @@ port-forwarding, opencv, picamera
 
 https://www.youtube.com/watch?v=GlOS94aEc8o&feature=youtu.be
 
+***
+
+## 11
+11주차 설치 내용
+
+- [x] 스피커, 마이크 설치 및 출력 테스트
+- [x] 음성인식을 위한 Magic Mirror 모듈 설치하기
+- [x] 블루투스 스퍼커 연결
+- [x] google assistant api enable 과정(미완)
+
+1. 블루투스 스피커 연결 
+
+```
+bluetoothctl
+# show
+# scan on
+# pair 11:58:02:A8:02:44
+# connect 11:58:02:A8:02:44
+# trust 11:58:02:A8:02:44 //자동 재연결
+```
+
+![title](/images/btconnect.PNG)
 
 
+2. 스피커, 마이크 설치 및 테스트
+
+```
+aplay -l
+arecord -l
+nano .asoundrc //스피커, 마이크 설정값 변경
+```
+
+```
+pcm.!default {
+  type asym
+  capture.pcm "mic"
+  playback.pcm "speaker"
+}
+
+pcm.mic {
+    type plug
+    slave {
+        pcm "hw:2,0"
+    }
+}
+
+pcm.speaker {
+    type plug
+    slave {
+        pcm "hw:2,0"
+    }
+} 
+
+ctl.!default {
+        type hw
+        card 1
+}
+```
+
+![title](/images/Sound.PNG)
+
+![title](/images/record.PNG)
+
+
+3. Magic Mirror modules 설치
+
+음성인식 모듈 설치
+```
+sudo apt update
+sudo apt upgrade
+sudo apt-get install -y libmagic-dev libatlas-base-dev sox libsox-fmt-all libasound2-dev
+
+cd ~/MagicMirror/modules/
+git clone https://github.com/eouia/MMM-Hotword.git
+cd MMM-Hotword
+chmod +x ./installer/install.sh
+./installer/install.sh
+
+cd ~/MagicMirror/modules/
+git clone https://github.com/eouia/MMM-AssistantMk2.git
+/MagicMirror/modules/MMM-AssistantMk2/
+npm install
+```
+
+스노우보이 섦치(음석인식 모듈 연동)
+```
+sudo apt-get install python-pyaudio python3-pyaudio sox
+sudo apt-get install python-pip libatlas-base-dev
+sudo pip install pyaudio
+sudo pip3 install pyaudio
+
+sudo pip install requests
+wget -O snowboy.tar.bz2 https://go.pimylifeup.com/napoRs/snowboy
+tar xvjf snowboy.tar.bz2
+mv rpi-arm-raspbian-8.0-1.1.1/ snowboy/
+```
+
+![title](/images/voicemodules.jpg)
 
