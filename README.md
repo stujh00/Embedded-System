@@ -518,7 +518,7 @@ git clone https://github.com/eouia/MMM-AssistantMk2.git
 npm install
 ```
 
-스노우보이 섦치(음석인식 모듈 연동)
+스노우보이 치(음석인식 모듈 연동)
 ```
 sudo apt-get install python-pyaudio python3-pyaudio sox
 sudo apt-get install python-pip libatlas-base-dev
@@ -532,4 +532,19 @@ mv rpi-arm-raspbian-8.0-1.1.1/ snowboy/
 ```
 
 ![title](/images/voicemodules.jpg)
+
+## 13
+13주차 내용
+
+- Speaker&Mic, Google Assistant 연동 video
+
+1.Speaker&Mic Test
+https://youtu.be/hVgujWlRLmk
+
+2. Google Assistant
+https://youtu.be/NDluBoeXUq8
+https://youtu.be/_fQBZcZbs-8
+
+***
+
 
