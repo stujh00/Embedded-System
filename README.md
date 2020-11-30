@@ -538,12 +538,12 @@ mv rpi-arm-raspbian-8.0-1.1.1/ snowboy/
 
 - Speaker&Mic, Google Assistant 연동 video
 
-1.Speaker&Mic Test
-https://youtu.be/hVgujWlRLmk
+1. Speaker&Mic Test
+-https://youtu.be/hVgujWlRLmk
 
 2. Google Assistant
-https://youtu.be/NDluBoeXUq8
-https://youtu.be/_fQBZcZbs-8
+-https://youtu.be/NDluBoeXUq8
+-https://youtu.be/_fQBZcZbs-8
 
 ***
 
